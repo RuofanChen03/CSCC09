@@ -1,0 +1,54 @@
+#messages {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+  border-bottom: 1px solid grey;
+}
+
+
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+}
+
+.message_user_picture {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.message_body {
+  width: 60%;
+  font-size: 20px;
+  overflow-wrap: break-word;
+}
+
+.buttons{
+  width: 6%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 75%;
+}
+
+.delete_button {
+  background-image: url("../media/delete-icon.png");
+}
+
+.upvote_button {
+  background-image: url("../media/upvote-icon.png");
+}
+
+.downvote_button {
+  background-image: url("../media/downvote-icon.png");
+}
